@@ -1,0 +1,330 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* for side-bar styling*/
+.sidebar-links{
+  width: 80%;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  margin: auto;
+  margin-top: 5px;
+  cursor: pointer;
+  color: azure;
+}
+.sidebar-links:hover{
+  background-color: white;
+  color: rgba(243, 57, 104, 0.911);
+  border-radius: 10px;
+}
+.sidebar-links p{
+  font-size: 12px;
+  font-weight: 400; 
+}
+a:link{
+  text-decoration: none!important;
+}
+.sidebar-active{
+  color: white;
+  background-color: rgba(243, 57, 104, 0.911);
+  border-radius: 12px;
+}
+
+
+/*for header styling */
+.nav-list{
+  display: flex;
+  justify-content: flex-end;
+}
+.header-wrapper{
+  position: relative;
+  padding-right: 3%;
+  background-color: white;
+}
+.navimage{
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  transform: scale(1.6);
+  color: #555;
+  cursor: pointer;
+}
+.navimage:hover{
+  color: #888;
+}
+
+/* dashboard card styling */
+.headtag{
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.d-sm-cards {
+	border-radius: 13px !important;
+  position: relative;
+  height: 100px;
+	padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+	margin-bottom: 30px;
+}
+.d-sm-cards h6{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 14px;
+  margin-left: 12px;
+  font-weight: 300;
+  color: azure;
+}
+.d-sm-cards p{
+  position: absolute;
+  top: 0;
+  color: azure;
+  font-weight: 650;
+  font-size: 40px;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+.cardimg{
+  width: 85px;
+  opacity: 0.5;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  color: rgb(189, 189, 189);
+}
+.maroon-card {
+	background: linear-gradient(
+		16deg,
+		rgba(234, 81, 121, 1) 0%,
+		rgba(172, 54, 115, 1) 100%
+	);
+}
+.indigo-card {
+	background: linear-gradient(
+		16deg,
+		rgba(195, 84, 215, 1) 0%,
+		rgba(136, 74, 206, 1) 100%
+	);
+}
+.orange-card {
+	background: linear-gradient(
+		16deg,
+		rgba(245, 90, 158, 1) 0%,
+		rgba(255, 155, 106, 1) 100%
+	);
+}
+
+/* user component styling */
+.useraddbtn{
+  margin-right: 30px;
+  background-color: rgba(243, 57, 104, 0.973);
+  color: white;
+  padding: 8px;
+  border-radius: 15px;
+  border-style: none;
+  box-shadow: 1px 1px #888888;
+}
+.maindivuser p{
+  background-color: rgba(214, 212, 212, 0.822);
+  color: black;
+  word-break: break-all;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border: black 1px solid;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.enddivuser{
+  position: relative;
+  margin-bottom: 20px;
+}
+.btndiv{
+  align-items: center;
+  position: relative;
+}
+.useraddbtn:hover{
+  box-shadow: 2px 2px #888888;
+  cursor: pointer;
+}
+.optionbtn{
+  transform: scale(1.2);
+}
+.optionbtn:hover{
+  background-color: rgb(238, 238, 238);
+  border-radius: 15px; 
+}
+.optionitemuser{
+  color: grey;
+}
+.optionitemuser:hover{
+  background-color: rgba(240, 255, 240, 0.836);
+  cursor: pointer;
+}
+
+
+/* create and update form styling */
+.maindivform{
+  background-color: rgba(231, 228, 228, 0.856);
+  height: 100vh;
+}
+.backbtn{
+  transform: scale(1.4);
+  font-size: 60px;
+  color: grey;
+  font-weight: 200;
+}
+.backbtn:hover{
+  background: rgba(214, 213, 213, 0.774);
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 17px;
+}
+.headingform{
+  margin-left: 30px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.divform{
+  background: white;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
+}
+.inputfeild{
+  background-color: whitesmoke;
+}
+
+/* product form styling */
+.headingdivproduct{
+  width: 100%;
+  display: flex;
+}
+.backbtnproduct{
+float: left;
+transform: scale(1.6);
+margin-top: 28px;
+}
+.backbtnproduct:hover{
+  background-color: rgb(212, 212, 212);
+  border-radius: 15px;
+  color: #555;
+}
+.productformhead{
+  float: left;
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: 600;
+}
+.imagediv{
+  height: 200px;
+  border: solid 1px rgb(185, 185, 185);
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+}
+.productimage{
+  width: 100%;
+  height: 100%;
+}
+.tabs-wrapper {
+	flex-wrap: wrap;
+  position: relative;
+}
+.m-overlay {
+  position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.d-block{
+  transform: scale(2.8);
+  z-index: 100;
+  color: white;
+}
+.hidden{
+visibility: hidden;
+}
+.m-overlay.active {
+	
+	background-color: black;
+	opacity: 0.8;
+}
+.delbtn{
+  cursor: pointer;
+  color: #555;
+}
+.delbtn:hover{
+  color: red;
+}
+.counterbtn{
+  cursor: pointer;
+}
+.reciptbtn{
+  background-color: rgba(243, 57, 104, 0.973);
+  width: 100%;
+  border-style: none;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 5px;
+}
+.reciptbtn:hover{
+  background-color: rgba(214, 58, 97, 0.973);
+}
+.categorytablehead{
+  font-size: 20px;
+}
+.rightalign{
+  flex: 50%;
+}
+.leftalign{
+  width: 80vw;
+}
+.reportheading{
+  color: #555;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  font-size: x-large;
+}

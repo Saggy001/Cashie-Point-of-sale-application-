@@ -1,0 +1,21 @@
+
+ .main-div{
+   display: flex; 
+}
+
+.wrapper-class{
+width: 100%;
+}
+.main-section{
+   height: 90vh;
+   overflow-y: scroll;
+   background-color: rgba(231, 228, 228, 0.856);
+}
+.side-bar{
+   text-align: center;
+   width: 9%;
+   background: rgba(9, 6, 54, 0.829);
+   height: 100vh;
+   padding-top: 100px;
+   overflow-y: scroll;
+}
