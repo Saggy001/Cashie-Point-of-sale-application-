@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Cashie-Point-of-sale-application-/static/css/main.5426888d.chunk.css",
+    "main.js": "/Cashie-Point-of-sale-application-/static/js/main.22154085.chunk.js",
+    "main.js.map": "/Cashie-Point-of-sale-application-/static/js/main.22154085.chunk.js.map",
+    "runtime-main.js": "/Cashie-Point-of-sale-application-/static/js/runtime-main.8f54ebc2.js",
+    "runtime-main.js.map": "/Cashie-Point-of-sale-application-/static/js/runtime-main.8f54ebc2.js.map",
+    "static/css/2.455652b6.chunk.css": "/Cashie-Point-of-sale-application-/static/css/2.455652b6.chunk.css",
+    "static/js/2.cac07fe2.chunk.js": "/Cashie-Point-of-sale-application-/static/js/2.cac07fe2.chunk.js",
+    "static/js/2.cac07fe2.chunk.js.map": "/Cashie-Point-of-sale-application-/static/js/2.cac07fe2.chunk.js.map",
+    "static/js/3.29cba9e3.chunk.js": "/Cashie-Point-of-sale-application-/static/js/3.29cba9e3.chunk.js",
+    "static/js/3.29cba9e3.chunk.js.map": "/Cashie-Point-of-sale-application-/static/js/3.29cba9e3.chunk.js.map",
+    "index.html": "/Cashie-Point-of-sale-application-/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/Cashie-Point-of-sale-application-/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.5426888d.chunk.css.map": "/Cashie-Point-of-sale-application-/static/css/main.5426888d.chunk.css.map",
+    "static/js/2.cac07fe2.chunk.js.LICENSE.txt": "/Cashie-Point-of-sale-application-/static/js/2.cac07fe2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f54ebc2.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.cac07fe2.chunk.js",
+    "static/css/main.5426888d.chunk.css",
+    "static/js/main.22154085.chunk.js"
+  ]
+}
