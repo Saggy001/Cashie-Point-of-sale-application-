@@ -6,10 +6,7 @@ import { withStyles } from "@material-ui/core/styles";
 import IconButton from "@material-ui/core/IconButton";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Popover from "@material-ui/core/Popover";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import { Avatar, List, ListItem } from "@material-ui/core";
-import { DriveEtaTwoTone } from '@material-ui/icons';
+import { List, ListItem } from "@material-ui/core";
 
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 

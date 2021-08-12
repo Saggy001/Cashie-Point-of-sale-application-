@@ -72,7 +72,7 @@ function App() {
         <Route path="/login" component={LoginScreen} />
         <Route path="/dashboard"
         render={(props) => {
-          //if (localStorage.getItem("token"))
+          if (localStorage.getItem("token"))
             return <DashBoard {...props} />;
           return <Redirect to="/login" />;
         }} 
