@@ -9,6 +9,7 @@ import Popover from "@material-ui/core/Popover";
 import { List, ListItem } from "@material-ui/core";
 
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import { Link,  useLocation  } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
 	typography: {
@@ -25,15 +26,24 @@ const StyledBadge = withStyles((theme) => ({
 	},
 }))(Badge);
 
-export default function Header() {
-
+export default function Header(props) {
+    let loc = useLocation().pathname.split("/");
+    //let loc = useLocation().pathname;
     const classes = useStyles();
 	const { cartItems } = useContext(CartContext);
 	const [anchorEl, setAnchorEl] = React.useState(null);
 
+    loc.includes("main") && loc.pop();
+    loc = loc.join("/")
+
 	const handleClick = (event) => {
 		setAnchorEl(event.currentTarget);
 	};
+
+    const clickit = () =>{
+        console.log(loc);
+        console.log("yes");
+    }
 
 	const handleClose = () => {
 		setAnchorEl(null);
@@ -67,11 +77,14 @@ export default function Header() {
                         horizontal: "center",
                     }}>
                     <List>
-                        <ListItem>Settings</ListItem>
-                        <ListItem>Account</ListItem>
-                        <ListItem>Logout</ListItem>
+                        <ListItem className="optionitemuser"> 
+                            <Link className="editbtnclr" to={`/dashboard/setting`}>Settings
+							</Link>
+                            </ListItem>
+                        <ListItem className="optionitemuser">Account</ListItem>
+                        <ListItem className="optionitemuser">Logout</ListItem>
                     </List>
-                </Popover>
+                </Popover>        
         </div>
     </div>
     )

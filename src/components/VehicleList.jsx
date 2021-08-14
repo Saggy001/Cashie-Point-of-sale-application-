@@ -88,6 +88,9 @@ export default function Users(props) {
 
       
     };
+	// const clickit = () =>{
+    //     console.log(props.match.path);
+    // }
 
 	const handleQueryChange = (e) => {
 		setUserData([]);
@@ -209,10 +212,10 @@ export default function Users(props) {
 						                            }}>
 						                             <List>
 							                             <ListItem className="optionitemuser">
-														 <Link to={`${props.match.path}/update/${selecteduser}`}>
-														<EditIcon className="optionitemuser me-2"/>
+														 <Link className="editbtnclr" to={`${props.match.path}/update/${selecteduser}`}>
+														<EditIcon className="optionitemuser me-2"/> Edit
 													</Link>
-								                         Edit</ListItem>
+								                        </ListItem>
 							                             <ListItem onClick={() => deleteUser(selecteduser)} className="optionitemuser">
 								                         <DeleteIcon className="me-2"/>
 								                          Delete</ListItem>

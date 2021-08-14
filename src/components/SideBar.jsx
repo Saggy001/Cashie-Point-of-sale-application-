@@ -13,7 +13,7 @@ import LayersIcon from '@material-ui/icons/Layers';
 // import PersonAddIcon from '@material-ui/icons/PersonAdd';
 // import PersonIcon from '@material-ui/icons/Person';
 
-function SideBar(props) {
+function SideBar() {
 	const loc = useLocation().pathname.split("/");
     return (
         <div>

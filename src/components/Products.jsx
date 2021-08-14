@@ -204,10 +204,10 @@ export default function Products(props) {
 						                            }}>
 						                             <List>
 							                             <ListItem className="optionitemuser">
-														 <Link to={`${props.match.path}/update/${selecteduser}`}>
-														<EditIcon className="optionitemuser me-2"/>
+														 <Link className="editbtnclr" to={`${props.match.path}/update/${selecteduser}`}>
+														<EditIcon className="optionitemuser me-2"/>Edit
 													</Link>
-								                         Edit</ListItem>
+								                         </ListItem>
 							                             <ListItem onClick={() => handleDelete(selecteduser)} className="optionitemuser">
 								                         <DeleteIcon className="me-2"/>
 								                          Delete</ListItem>

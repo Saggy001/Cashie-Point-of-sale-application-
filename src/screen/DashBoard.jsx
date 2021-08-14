@@ -12,7 +12,7 @@ import DashboardComp from '../components/DashboardComp'
 import VehicleList from '../components/VehicleList';
 import NewProduct from '../components/NewProduct'
 import NewCategory from '../components/NewCategory'
-import { Settings } from '@material-ui/icons'
+import Settings from '../components/Settings'
 
 function DashBoard(props) {
     return (
